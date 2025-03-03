@@ -2,7 +2,7 @@
 
 ## This is how it looks once setup is done completely
 
-![Video Demo](./03-devops-project-ss.gif)
+![Video Demo](./devops-project-ss.gif)
 
 
 ## Steps to prepare the project :-
@@ -12,28 +12,29 @@
 - After installation of Golang, verify the variables _GOROOT_, _GOPATH_, _GOBIN_ are set or not.
 
   ```bash
-LoneRanger@DESKTOP-AM16DR1 MINGW64 ~
-$ echo $GOROOT
+  LoneRanger@DESKTOP-AM16DR1 MINGW64 ~
+  $ echo $GOROOT
 
-LoneRanger@DESKTOP-AM16DR1 MINGW64 ~
-$ echo $GOPATH
-C:\Users\LoneRanger\go
+  LoneRanger@DESKTOP-AM16DR1 MINGW64 ~
+  $ echo $GOPATH
+  C:\Users\LoneRanger\go
 
-LoneRanger@DESKTOP-AM16DR1 MINGW64 ~
-$ echo $GOBIN
+  LoneRanger@DESKTOP-AM16DR1 MINGW64 ~
+  $ echo $GOBIN
+  
   ```
 
 
 - Create a basic folder structure for a Go webapp and add the location of this path in _GOPATH_ in _System Environment Variables_. Open a new terminal session to verify whether the paths for the variables are set properly or not. 
 
   ```bash
-LoneRanger@DESKTOP-AM16DR1 MINGW64 /e/DevOps projects/Go WebApp with Dockerized Image and Deployed in Kubernetes
-$ echo $GOPATH
-E:\DevOps projects\Go WebApp with Dockerized Image and Deployment on Kubernetes\go-devops
+  LoneRanger@DESKTOP-AM16DR1 MINGW64 /e/DevOps projects/Go WebApp with Dockerized Image and Deployed in Kubernetes
+  $ echo $GOPATH
+  E:\DevOps projects\Go WebApp with Dockerized Image and Deployment on Kubernetes\go-devops
 
-LoneRanger@DESKTOP-AM16DR1 MINGW64 /e/DevOps projects/Go WebApp with Dockerized Image and Deployed in Kubernetes
-$ echo $GOBIN
-E:\DevOps projects\Go WebApp with Dockerized Image and Deployed in Kubernetes\go-devops\bin
+  LoneRanger@DESKTOP-AM16DR1 MINGW64 /e/DevOps projects/Go WebApp with Dockerized Image and Deployed in Kubernetes
+  $ echo $GOBIN
+  E:\DevOps projects\Go WebApp with Dockerized Image and Deployed in Kubernetes\go-devops\bin
 
   ```
 
