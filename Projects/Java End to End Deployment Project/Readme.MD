@@ -26,4 +26,4 @@
 
 <br>
 
-**The repo used for this project with all the code is [here](https://github.com/measutosh/sample-springboot-app.git)**
+**The repo used for this project with all the code is [here](https://github.com/aniketshinde7/Petclinic)**
