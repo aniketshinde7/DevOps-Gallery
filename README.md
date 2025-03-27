@@ -1,4 +1,4 @@
-# DevOps Projects
+# DevOps Gallery
 
 ### This repo contains multiple DevOps projects with respective flow-diagrams, output demo and manifest files exploring many DevOps tools and concepts.
 
@@ -10,4 +10,5 @@
 
 <br>
 
-1. [Go WebApp with Dockerized Image and Deployment on Kubernetes] (https://github.com/aniketshinde7/DevOps-Projects/tree/main/Projects/Go%20WebApp%20with%20Dockerized%20Image%20and%20Deployment%20on%20Kubernetes)
+1. [Go WebApp with Dockerized Image and Deployment on Kubernetes] (https://github.com/aniketshinde7/DevOps-Gallery/tree/main/Projects/Go-WebApp-with-Dockerized-Image-and-Deployment-on-Kubernetes)
+
