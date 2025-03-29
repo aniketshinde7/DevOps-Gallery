@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: aniketshinde7/cart
+  pullPolicy: IfNotPresent
+  
+service:
+  type: ClusterIP
+  port: 1004
+  targetport: 1004
+  name: cart
+
+conatiner:
+  name: cart-ui

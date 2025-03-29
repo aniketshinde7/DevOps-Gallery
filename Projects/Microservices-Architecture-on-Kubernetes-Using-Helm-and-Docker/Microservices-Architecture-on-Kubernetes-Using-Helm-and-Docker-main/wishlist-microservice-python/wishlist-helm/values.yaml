@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: aniketshinde7/wishlist
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 1003
+  targetport: 5000
+  name: wishlist
+
+container:
+  name: wishlist

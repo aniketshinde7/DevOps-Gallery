@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: aniketshinde7/shoe
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 1002
+  targetport: 1002
+  name: shoe
+
+container:
+  name: shoe-ui
